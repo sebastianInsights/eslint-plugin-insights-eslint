@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-insights-eslint",
+  "version": "0.0.0",
+  "description": "Custom rules for Insights Omni",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Sebastian Bender",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "mocha": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
